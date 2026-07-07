@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>4-Week Workout – Season 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>4-Week Workout – Season 2</h1>
+    <p>Push • Pull • Legs • Full Body • Conditioning</p>
+  </header>
+
+  <main id="app">
+    <div class="controls">
+      <select id="weekSelect"></select>
+      <select id="daySelect"></select>
+    </div>
+
+    <section id="workout"></section>
+    <section id="log">
+      <h2>Workout Log</h2>
+      <textarea id="notes" placeholder="Weights, reps, comments..."></textarea>
+      <label>
+        <input type="checkbox" id="completed" />
+        Mark this day as completed
+      </label>
+      <button id="saveBtn">Save</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
